@@ -24,5 +24,20 @@ public class operadores {
         System.out.println("E (true && false): " + (condicao1 && condicao2)); // false
         System.out.println("OU (true || false): " + (condicao1 || condicao2)); // true
         System.out.println("NÃO (!true): " + (!condicao1));
+
+        //operador ternário
+        String result = a==b ? "true":"false";
+        System.out.println(result);
+
+        //equals serve para comparar conteudos
+        String nomeUm="CLEBER";
+        String nomeDois= new String("CLEBER");
+        System.out.println(nomeUm.equals(nomeDois));
+
+        //7>4 representam tbm uma relação booleana
+        boolean verd= true;
+        if (verd && (7>4)){
+            System.out.println("ambas verdade");
+        }
 }
 }
