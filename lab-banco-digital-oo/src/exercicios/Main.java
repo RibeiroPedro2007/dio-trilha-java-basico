@@ -14,5 +14,6 @@ public class Main {
         contaCorrente.imprimirAtributos();
         contaPoupanca.imprimirExtrato();
         contaPoupanca.imprimirAtributos();
+        contaCorrente.imprimirHistorico();
     }
 }
